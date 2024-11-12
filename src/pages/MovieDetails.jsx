@@ -5,3 +5,5 @@ function MovieDetails() {
         </div>
     )
 }
+
+export default MovieDetails

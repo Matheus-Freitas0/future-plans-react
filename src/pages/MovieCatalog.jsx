@@ -5,4 +5,5 @@ function MovieCatalog() {
         </div>
     )
 }
+
 export default MovieCatalog
