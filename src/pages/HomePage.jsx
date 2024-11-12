@@ -1,4 +1,4 @@
-import Header from "../components/pageMovieCatalog/Header"
+import Header from "../components/HomePage/Header"
 
 function HomePage() {
     return (

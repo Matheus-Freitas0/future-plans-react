@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage';
 import PageNotFound from './pages/PageNotFound';
 import Travel from './pages/Travel';
 import MovieRegister from './pages/FuturePlans';
+import './App.css'
 
 const App = () => (
   <Router future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
