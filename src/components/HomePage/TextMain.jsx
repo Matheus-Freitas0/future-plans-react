@@ -6,9 +6,11 @@ function TextMain() {
       <section className="welcome-message">
         <h1>Bem-vinda ao nosso Mundo!</h1>
         <p>
-          Cada momento ao seu lado é uma aventura, e a nossa história ainda tem
-          tanto por escrever. Bem-vinda ao nosso cantinho, onde os sonhos se
-          tornam realidade.
+          A vida ao seu lado é um livro cheio de páginas lindas e sonhos ainda
+          por realizar.
+          <p>
+            Bem-vinda ao nosso cantinho, onde os sonhos se tornam realidade...
+          </p>
         </p>
       </section>
     </div>

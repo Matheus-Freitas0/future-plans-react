@@ -6,9 +6,50 @@
     text-align: center;
     height: 100vh; 
     z-index: 5;
+    padding: 0 20px; 
 }
 
 .welcome-message {
     font-size: 2rem;
-    color: #fff;
+    color: #f5ecec;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-message h1 {
+    font-size: 5.5rem;
+    margin: 0;
+    color: #e2c4ac; 
+    text-shadow: 5px 4px 1px rgba(0, 0, 0, 0.3); 
+}
+
+.welcome-message p {
+    font-size: 2rem;
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .welcome-message h1 {
+        font-size: 3rem;
+    }
+
+    .welcome-message p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-message h1 {
+        font-size: 2.5rem;
+    }
+
+    .welcome-message p {
+        font-size: 1.2rem;
+    }
 }
