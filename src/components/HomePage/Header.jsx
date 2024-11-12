@@ -7,8 +7,8 @@ function Header() {
   const navigate = useNavigate();
 
   const goHome = () => navigate("/");
-  const goRegister = () => navigate("/register");
-  const goFavorites = () => navigate("/movie/details");
+  const goRegister = () => navigate("plans");
+  const goFavorites = () => navigate("/travel");
 
   return (
     <div className="header">
