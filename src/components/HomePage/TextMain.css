@@ -11,7 +11,7 @@
 
 .welcome-message {
     font-size: 2rem;
-    color: #f5ecec;
+    color: #f0e5e5;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
     margin-bottom: 20px; 
     display: flex;
@@ -22,13 +22,15 @@
 .welcome-message h1 {
     font-size: 5.5rem;
     margin: 0;
-    color: #e2c4ac; 
-    text-shadow: 5px 4px 1px rgba(0, 0, 0, 0.3); 
+    color: #ffdcc2; 
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
 }
 
 .welcome-message p {
     font-size: 2rem;
     max-width: 600px;
+    color: #f5ecec; 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
     line-height: 1.5;
     margin-top: 20px;
