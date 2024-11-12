@@ -1,6 +1,6 @@
 import Header from "../components/pageMovieCatalog/Header"
 
-function MovieCatalog() {
+function HomePage() {
     return (
         <div >
             <Header />
@@ -8,4 +8,4 @@ function MovieCatalog() {
     )
 }
 
-export default MovieCatalog
+export default HomePage
