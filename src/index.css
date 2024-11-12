@@ -1,8 +1,12 @@
-body{
-    font-family: "Host Grotesk", sans-serif;
-    background-color: #e5e9f0;
-    color: #333333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: "Host Grotesk", sans-serif;
+  color: #333333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url("../src/assets/bg.png"); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }

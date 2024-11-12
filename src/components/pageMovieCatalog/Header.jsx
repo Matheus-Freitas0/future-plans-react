@@ -22,8 +22,6 @@ function Header() {
     <div className="header">
       <nav>
         <img src={Logo} alt="Logo" className="navbar-logo-img" onClick={goHome} />
-
-        {/* Links de navegação */}
         <ul className="navbar-links">
           <li>
             <button className="navbar-link" onClick={goHome}>Home</button>
