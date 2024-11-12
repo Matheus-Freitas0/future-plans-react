@@ -1,3 +1,4 @@
+import "./ImportantPlans.css"
 function ImportantPlans() {
     return (
         <div className="important-plans">
