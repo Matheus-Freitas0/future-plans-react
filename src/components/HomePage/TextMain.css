@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Host+Grotesk:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@717&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .main {
     display: flex;
     flex-direction: column;
@@ -24,13 +26,17 @@
     margin: 0;
     color: #ffdcc2; 
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 .welcome-message p {
-    font-size: 2rem;
-    max-width: 600px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    max-width: 800px;
     color: #f5ecec; 
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.4);
     text-align: center;
     line-height: 1.5;
     margin-top: 20px;
