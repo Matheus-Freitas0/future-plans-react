@@ -4,13 +4,11 @@ function TextMain() {
   return (
     <div className="main">
       <section className="welcome-message">
-        <h1>Bem-vinda ao nosso Mundo!</h1>
+        <h1>Welcome to our World!</h1>
         <p>
-          A vida ao seu lado é um livro cheio de páginas lindas e sonhos ainda
-          por realizar.
-          <p>
-            Bem-vinda ao nosso cantinho, onde os sonhos se tornam realidade...
-          </p>
+          Life by your side is a book full of beautiful pages and dreams still
+          to accomplish.
+          <p>Welcome to our little corner, where dreams come true...</p>
         </p>
       </section>
     </div>

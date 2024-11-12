@@ -2,7 +2,10 @@ import "./ImportantPlans.css"
 function ImportantPlans() {
     return (
         <div className="important-plans">
-            <h2>Important Plans</h2>
+            <h1>Main plans</h1>
+            <div>
+
+            </div>
         </div>
     )
 }
