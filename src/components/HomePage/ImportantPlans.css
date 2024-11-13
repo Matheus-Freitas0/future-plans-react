@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 .important-plans {
-    background-color: rgba(231, 230, 230, 0.3); 
+    background-color: rgba(231, 230, 230, 0.2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,30 +59,45 @@
     color: #666;
     font-family: 'Playfair Display', sans-serif;
 }
+
 .plan-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-    width: 300px;
+    gap: 15px;
+    margin-bottom: 30px;
+    width: 350px;
     align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.plan-form input, .plan-form textarea, .plan-form button {
+.plan-form input, 
+.plan-form textarea, 
+.plan-form button {
     width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
     font-size: 1rem;
+    background-color: #fff;
+}
+
+.plan-form input:focus, 
+.plan-form textarea:focus {
+    border-color: #333;
+    outline: none;
 }
 
 .plan-form button {
-    background-color: #333;
+    background-color: #4CAF50;
     color: #fff;
+    font-size: 1.1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .plan-form button:hover {
-    background-color: #555;
+    background-color: #45a049;
 }

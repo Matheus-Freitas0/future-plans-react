@@ -79,19 +79,27 @@ function ImportantPlans() {
       </form>
 
       <div className="plans-cards">
-        {plans.map((plan, index) => (
-          <div className="plan-card" key={index}>
-            <img className="img-card" src={plan.imageUrl} alt={plan.title} />
-            <h1 className="text-card">{plan.title}</h1>
-            <details className="detail-card">
-              <summary>Detalhes</summary>
-              <div>
-                <p>{plan.description}</p>
-                <p>Data: {plan.date}</p>
-              </div>
-            </details>
-          </div>
-        ))}
+        {plans.map((plan, index) => {
+          const formattedDate = new Date(plan.date).toLocaleDateString('pt-BR', {
+            day: '2-digit',
+            month: 'long',
+            year: 'numeric',
+          });
+          
+          return (
+            <div className="plan-card" key={index}>
+              <img className="img-card" src={plan.imageUrl || 'path/to/default-image.jpg'} alt={plan.title} />
+              <h1 className="text-card">{plan.title}</h1>
+              <details className="detail-card">
+                <summary>Detalhes</summary>
+                <div>
+                  <p>{plan.description}</p>
+                  <p>Data: {formattedDate}</p> 
+                </div>
+              </details>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
