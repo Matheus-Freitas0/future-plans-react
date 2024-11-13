@@ -2,8 +2,8 @@ import "./ImportantPlans.css"
 function ImportantPlans() {
     return (
         <div className="important-plans">
-            <h1>Main plans</h1>
-            <div>
+            <h1 className="textPrinc">Main plans</h1>
+            <div className="plans-cards">
                 <div>
                     <h1>foto1</h1>
                 </div>
