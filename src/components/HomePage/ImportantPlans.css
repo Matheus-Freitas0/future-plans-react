@@ -1,22 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Host+Grotesk:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@717&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-.important-plans{
-    background-color: rgba(231, 230, 230, 0.5);    display: flex;
+.important-plans {
+    background-color: rgba(231, 230, 230, 0.3); 
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.textPrinc{
+.textPrinc {
     font-size: 3rem;
-    color: #000;
+    color: #333;
     font-style: italic;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
 }
 
-.plans-cards{
+.plans-cards {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.plan-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+}
+
+.img-card {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.text-card {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.detail-card {
+    font-size: 1rem;
+    color: #666;
+    font-family: 'Playfair Display', sans-serif;
+}
+.plan-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    align-items: center;
+}
+
+.plan-form input, .plan-form textarea, .plan-form button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.plan-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.plan-form button:hover {
+    background-color: #555;
 }
